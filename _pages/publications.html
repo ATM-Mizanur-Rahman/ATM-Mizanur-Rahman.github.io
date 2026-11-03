@@ -1,36 +1,28 @@
----
-layout: archive
-title: "Publications"
-permalink: /publications/
-author_profile: true
----
+<style>.pubs li { margin-bottom: 14px; }</style>
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<h2>Published</h2>
+<ol class="pubs">
+  <li><strong>ATM Mizanur Rahman</strong>, Syed Ishtiaque Ahmed, and Sharifa Sultana. “Data Repair.” In <em>Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems (CHI 2026)</em>. <a href="https://dl.acm.org/doi/pdf/10.1145/3772318.3790962">[PDF]</a> 🏆 Best Paper Honorable Mention Award</li>
 
-{% include base_path %}
+  <li><strong>ATM Mizanur Rahman</strong> and Sharifa Sultana. “Bonik Somiti: A Social-market Tool for Safe, Accountable, and Harmonious Informal E-Market Ecosystem in Bangladesh.” In <em>Proceedings of the 2026 ACM Designing Interactive Systems Conference (DIS 2026)</em>. <a href="https://dl.acm.org/doi/10.1145/3800645.3812955">[PDF]</a></li>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  <li><strong>ATM Mizanur Rahman</strong>, Md Romael Haque, and Sharifa Sultana. “DAIEM: Decolonizing Algorithm’s Role as a Team-member in Informal E-market.” In <em>Proceedings of the 2026 ACM Conference on Computing and Sustainable Societies (COMPASS 2026)</em>. <a href="https://arxiv.org/abs/2506.12910">[PDF]</a></li>
 
+  <li><strong>ATM Mizanur Rahman</strong> and Sharifa Sultana. “Ghostcrafting AI: Under the Rug of Platform Labor.” In <em>Proceedings of the 2026 ACM Conference on Computing and Sustainable Societies (COMPASS 2026)</em>. <a href="https://arxiv.org/abs/2512.21649">[PDF]</a></li>
 
+  <li>*<strong>ATM Mizanur Rahman</strong>, *Tanusree Sharma, Silvia Sandhi, Yang Wang, Rifat Shahriyar, and S M Taiabul Haque. “Coinfused: Navigating the Current Practices and Perceived Risks among the Cryptocurrency Users in Bangladesh.” In <em>Proceedings of the 2025 ACM Conference on Computing and Sustainable Societies (COMPASS 2025)</em>.</li>
 
+  <li>Hafsah Chowdhury, <strong>ATM Mizanur Rahman</strong>, Miss. Rokeya Akter, Zinnat Sultana, Syed Ishtiaque Ahmed, and Sharifa Sultana. “The Ancient Elephant in the Room: Stigma, Gender Norms, and Cultural Barriers in Reproductive Care in Bangladesh.” In <em>Proceedings of the 2024 ACM Information and Communication Technology and Development (ICTD 2024)</em>.</li>
+
+  <li>Md. Jahidul Islam, <strong>ATM Mizanur Rahman</strong>, and Sohel Rana. “Performance Analysis of Modern Garbage Collectors using Big Data Benchmarks in the JDK 20 Environment.” In <em>Proceedings of the 5th International Conference on Sustainable Technologies for Industry (STI 2023)</em>.</li>
+</ol>
+<p><small>* Equal contribution</small></p>
+
+<h2>Under Review</h2>
+<ol class="pubs">
+  <li><strong>ATM Mizanur Rahman</strong>, Syed Ishtiaque Ahmed, and Sharifa Sultana. “Data Patching.” Under review at <em>the 2027 CHI Conference on Human Factors in Computing Systems (CHI 2027)</em>. <a href="https://arxiv.org/abs/2609.28777">[PDF]</a></li>
+
+  <li><strong>ATM Mizanur Rahman</strong>, Md Arid Hasan, Syed Ishtiaque Ahmed, and Sharifa Sultana. “Evaluating LLMs’ Effectiveness on Real-World Consumer Device Repair Questions.” Under review at <em>ACL Rolling Review (ARR), August 2026 Cycle</em>. <a href="https://arxiv.org/abs/2606.03331">[PDF]</a></li>
+
+  <li><strong>ATM Mizanur Rahman</strong> and Sharifa Sultana. “Digital Labor: Challenges, Ethical Insights, and Implications.” Under review at <em>ACM Journal on Computing and Sustainable Societies (JCSS)</em>. <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=4FqBS2QAAAAJ&amp;citation_for_view=4FqBS2QAAAAJ:LkGwnXOMwfcC">[PDF]</a></li>
+</ol>
